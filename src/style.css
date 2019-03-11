@@ -1,1 +1,46 @@
-/* Acá va tu código */
+body {
+    background-image: url(fondo/fondo4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(3, 3, 48);
+}
+h2{
+    text-align: center;
+    line-height: 20px;
+    font-weight: 200;
+    color: rgb(10, 10, 31);
+}
+h3{
+    margin-top: 35px;
+    color: rgb(22, 22, 41);
+    font-size: 25px;
+    text-align: center;   
+}
+p{
+    text-align: center;v
+    font-style: solid;
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    border: 3px;
+    padding: 10px;
+    border: 3px solid rgb(133, 188, 240);
+    padding: 10px;
+}
+.btn{
+    font-size: 10px;
+    background-color: skyblue;
+    color: rgb(13, 19, 24);
+    border: 5px solid rgb(160, 219, 243);
+    padding: 15px 20px 15px 20px;
+    border-radius: 3px;
+    margin: 0em 1em 0em;
+
+}

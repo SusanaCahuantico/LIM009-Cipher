@@ -1,33 +1,28 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <center>
-  <body background="fondo/fondo4.jpg">
-    <div id="root">
-      <section class=cover>
-      <h1>Arma Secreta</h1>
-      <p>Encriptación del mensaje naval</p>
-      <input type="text" id="text" class="input input-text" placeholder="Mensaje a cifrar">
-      <br>
-      <br>
-      <div>
-        <input type="number" class="input" id="number" placeholder="Código" tittle="Ingresa un número entero">
-      </div>
-      <br>
-      <div>
-        <button type="button button-color inside" onclick="getData(true)">Cifrar</button>
-        <button onclick="getData(false)" name="button">Descrifrar</button>
-      </div>
-      <br>
-      <input type="text" id="text-result" placeholder="Mensaje a descifrar" tittle="Ingrese el mensaje que desee descifrar">
-    </section>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
-  </center>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arma Secreta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bienvenidos a <br>
+  Arma Secreta</h1>
+  <h2>¡Encripta tu mensaje naval!</h2>
+  <div>
+    <center>
+      <textarea id="mensaje" cols="35" rows="5" placeholder="Escribe tu ingresa"></textarea>
+      <br><br>
+      <strong>Clave:</strong> <input type="text" id="offset" placeholder="Ingresa tu clave secreta">
+      <br><br>
+      <button id="cifrar" class="btn">Cifrar</button>
+      <button id="descifrar" class="btn">Descifrar</button>
+      <button id="limpiar" class="btn">Limpiar</button>
+      <h3>Resultado:</h3>
+      <p id="result"></p>
+    </center>
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
 </html>
