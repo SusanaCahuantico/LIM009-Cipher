@@ -25,4 +25,6 @@ Actualmente todos los cifrados de sustitución alfabética simple, se descifran 
 
 Este proyecto fue pensado y diseñado en lo importante y necesario que es mantener información confidencial que se envía dentro de la Marina de Guerra del Perú, ante cualquier eventualidad.
 
+Este programa esta creado para evitar el envio de mensajes confidenciales de manera tradicional y cuidando o protegiendo la integridad de la persona. 
+
 #### ¡Gracias por visitar nuestra Web!
