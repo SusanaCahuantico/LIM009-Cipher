@@ -33,7 +33,7 @@ h2 {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -106,5 +106,5 @@ p {
     background-color: white;
     border: 3px solid rgb(133, 188, 240);
     padding: 10px;
-    margin: 0 auto;
+    margin: 0 auto; /* Centra el párrafo */
 }

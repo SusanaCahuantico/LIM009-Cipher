@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arma Secreta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bienvenidos a <br>
+  Arma Secreta</h1>
+  <h2>¡Encripta tu mensaje naval!</h2>
+  <section>
+  <div class="cajita">
+      <textarea id="mensaje" cols="35" rows="5" placeholder="Escribe tu ingresa"></textarea>
+      <br><br>
+      <strong>Clave:</strong> <input type="text" id="offset" placeholder="Ingresa tu clave secreta">
+      <br><br>
+      <button id="cifrar" class="btn">Cifrar</button>
+      <button id="descifrar" class="btn">Descifrar</button>
+      <button id="limpiar" class="btn">Limpiar</button>
+      <h3>Resultado:</h3>
+      <p id="result"></p>
+  </div>
+</section>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

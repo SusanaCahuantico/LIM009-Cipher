@@ -1,9 +1,6 @@
 body {
-    background-image: url('fondo/fondo4.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
     color: #333;
     margin: 0;
     padding: 0;
@@ -12,61 +9,58 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
-}
-
-header {
+  }
+  
+  header {
     text-align: center;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 8px;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 2.5rem;
     color: #2c3e50;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 1.5rem;
     color: #34495e;
-}
-
-.container {
-    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .container {
+    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
     text-align: center;
-}
-
-textarea {
+  }
+  
+  textarea {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #ccc;
     font-size: 1rem;
     margin-bottom: 10px;
-}
-
-input[type="text"] {
+  }
+  
+  input[type="text"] {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #ccc;
     font-size: 1rem;
     margin-bottom: 10px;
-}
-
-.buttons {
+  }
+  
+  .buttons {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-}
-
-.btn {
+  }
+  
+  .btn {
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -75,36 +69,37 @@ input[type="text"] {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-.btn:hover {
+  }
+  
+  .btn:hover {
     background-color: #2980b9;
-}
-
-#result {
+  }
+  
+  #result {
     font-size: 1.2rem;
     color: #2c3e50;
     margin-top: 20px;
-}
+  }
 
-.cajita {
+.cajita{
     margin: auto;
+    
 }
 
-h3 {
+h3{
     margin-top: 35px;
     color: rgb(22, 22, 41);
     font-size: 25px;
-    text-align: center;
+    text-align: center;   
 }
-
-p {
+p{
     text-align: center;
     font-style: solid;
     width: 200px;
     height: 70px;
     background-color: white;
+    border: 3px;
+    padding: 10px;
     border: 3px solid rgb(133, 188, 240);
     padding: 10px;
-    margin: 0 auto;
 }
