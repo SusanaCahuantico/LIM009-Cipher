@@ -6,31 +6,19 @@ const resulta = document.getElementById("result");
 const clear = document.getElementById("limpiar");
 
 btncifrar.addEventListener("click", () => {
-    const mensajeCapturado = mensaje.value.trim();
-    const offsetCapturado = parseInt(offset.value.trim());
-
-    if (!mensajeCapturado || isNaN(offsetCapturado)) {
-        alert("Por favor, ingresa un mensaje y una clave válida.");
-        return;
-    }
-
+    const mensajeCapturado = mensaje.value;
+    const offsetCapturado = offset.value;
     resulta.innerHTML = cipher.encode(offsetCapturado, mensajeCapturado);
 });
 
 btndescifrar.addEventListener("click", () => {
-    const mensajeCapturado = mensaje.value.trim();
-    const offsetCapturado = parseInt(offset.value.trim());
-
-    if (!mensajeCapturado || isNaN(offsetCapturado)) {
-        alert("Por favor, ingresa un mensaje y una clave válida.");
-        return;
-    }
-
+    const mensajeCapturado = mensaje.value;
+    const offsetCapturado = offset.value;
     resulta.innerHTML = cipher.decode(offsetCapturado, mensajeCapturado);
 });
 
 clear.addEventListener("click", () => {
-    mensaje.value = "";
-    offset.value = "";
-    resulta.innerHTML = "";
+    mensaje.value = " ";
+    offset.value = " ";
+    resulta.innerHTML = " ";
 });
