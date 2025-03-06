@@ -6,8 +6,8 @@ const resulta = document.getElementById("result");
 const clear = document.getElementById("limpiar");
 
 btncifrar.addEventListener("click", () => {
-    const mensajeCapturado = mensaje.value.trim();
-    const offsetCapturado = parseInt(offset.value.trim());
+    const mensajeCapturado = mensaje.value.trim(); // Elimina espacios en blanco al inicio y final
+    const offsetCapturado = parseInt(offset.value.trim()); // Convierte a número
 
     if (!mensajeCapturado || isNaN(offsetCapturado)) {
         alert("Por favor, ingresa un mensaje y una clave válida.");
